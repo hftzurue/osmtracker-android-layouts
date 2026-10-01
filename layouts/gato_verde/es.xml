@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+  <layout name="root">
+    <row>
+      <button type="voicerec" icon="voice_32x32"/>
+      <button type="picture" icon="camera_32x32"/>
+      <button type="textnote" icon="text_32x32"/>
+    </row>
+    <row>
+      <button type="page" label="Puntos" targetlayout="puntos"/>
+    </row>
+    <row>
+      <button type="page" label="Líneas" targetlayout="lineas"/>
+    </row>
+    <row>
+      <button type="page" label="Áreas" targetlayout="areas"/>
+    </row>
+  </layout>
+
+  <layout name="puntos">
+    <row>
+      <button type="voicerec" icon="voice_32x32"/>
+      <button type="picture" icon="camera_32x32"/>
+      <button type="textnote" icon="text_32x32"/>
+    </row>
+    <row>
+      <button type="tag" label="Parada de bus" icon="gato_verde_icons/parada_bus.png"/>
+      <button type="tag" label="Reductor de velocidad" icon="gato_verde_icons/reductor.png"/>
+      <button type="tag" label="Clínica" icon="gato_verde_icons/clinica.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Panadería Musmanni" icon="gato_verde_icons/musmanni.png"/>
+      <button type="tag" label="Basurero público" icon="gato_verde_icons/basurero.png"/>
+      <button type="tag" label="Teléfono público" icon="gato_verde_icons/telefono.png"/>
+    </row>
+  </layout>
+
+  <layout name="lineas">
+    <row>
+      <button type="voicerec" icon="voice_32x32"/>
+      <button type="picture" icon="camera_32x32"/>
+      <button type="textnote" icon="text_32x32"/>
+    </row>
+    <row>
+      <button type="tag" label="Puente - inicio" icon="gato_verde_icons/puente_inicio.png"/>
+      <button type="tag" label="Puente - fin" icon="gato_verde_icons/puente_fin.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Acera - inicio" icon="gato_verde_icons/acera_inicio.png"/>
+      <button type="tag" label="Acera - fin" icon="gato_verde_icons/acera_fin.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Tramo sin acera - inicio" icon="gato_verde_icons/acera_falta_inicio.png"/>
+      <button type="tag" label="Tramo sin acera - fin" icon="gato_verde_icons/acera_falta_fin.png"/>
+    </row>
+  </layout>
+
+  <layout name="areas">
+    <row>
+      <button type="voicerec" icon="voice_32x32"/>
+      <button type="picture" icon="camera_32x32"/>
+      <button type="textnote" icon="text_32x32"/>
+    </row>
+    <row>
+      <button type="tag" label="Plaza - inicio perímetro" icon="gato_verde_icons/plaza_inicio.png"/>
+      <button type="tag" label="Plaza - fin perímetro" icon="gato_verde_icons/plaza_fin.png"/>
+    </row>
+    <row>
+      <button type="tag" label="Parque - inicio perímetro" icon="gato_verde_icons/parque_inicio.png"/>
+      <button type="tag" label="Parque - fin perímetro" icon="gato_verde_icons/parque_fin.png"/>
+    </row>
+  </layout>
+</layouts>
